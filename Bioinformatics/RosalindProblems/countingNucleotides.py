@@ -26,6 +26,7 @@ def countNucleotides(dataset):
             raise ValueError("Invalid Character Found")
     for nt in [a,c,g,t]:
         print(nt, end=' ')
+    print()
 
     return [a,c,g,t]
 
