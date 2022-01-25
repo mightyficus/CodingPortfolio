@@ -6,8 +6,8 @@
         (661)755-3832
     </p>
     <p>
-        Achieve experience and recognition in the Biotechnology and Computer Science industries
-        while pursuing my education in Biology and Computer Science.
+        Achieve experience and recognition in the Data Science and Cybersecurity
+        while pursuing my education in Technology and Computer Science.
     </p>
     <p>Authorized to work in the US for any employer</p>
     <h3>Work Experience</h3>
@@ -15,7 +15,7 @@
     <h3>Assistant Coordinator</h3>
     <p>
         Utah Valley University - Orem, UT<br>
-        June 2019 to present
+        June 2019 to October 2020
     </p>
     <p>
         As an Assistant Coordinator for Academic Tutoring at UVU, I am responsible for the supervision of
@@ -46,10 +46,10 @@
     </p>
     <h2>Education</h2>
     <hr>
-    <h3>Bachelor's in Computer Science</h3>
+    <h3>Bachelor's in Information Technology</h3>
     <p>
         Utah Valley University - Orem, UT<br>
-        September 2017 to Present
+        September 2019 to Present
     </p>
     <h3>Associate's in Biology</h3>
     <p>
@@ -59,10 +59,11 @@
     <h2>Skills</h2>
     <hr>
     <ul>
+        <li>Linux (6 years)</li>
         <li>C++ (6 years)</li>
         <li>Python (4 years)</li>
         <li>SQL (1 year)</li>
-        <li>Linux (6 years)</li>
+        <li>R Programming Language (1 year)</li>
         <li>Microsoft Office</li>
         <li>Laboratory Techniques
             <ul>
