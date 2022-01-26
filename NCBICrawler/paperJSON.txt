@@ -1,0 +1,220 @@
+{
+  "MedlineCitation":{
+    "SpaceFlightMission":[],
+    "CitationSubset":[
+      "IM"
+    ],
+    "KeywordList":[
+      [
+        "Adults",
+        "Epilepsy",
+        "Stimulation",
+        "VNS",
+        "Vagal nerve"
+      ]
+    ],
+    "OtherAbstract":[],
+    "GeneralNote":[],
+    "OtherID":[],
+    "PMID":"30213680",
+    "DateCompleted":{
+      "Year":"2018",
+      "Month":"12",
+      "Day":"17"
+    },
+    "DateRevised":{
+      "Year":"2018",
+      "Month":"12",
+      "Day":"17"
+    },
+    "Article":{
+      "ELocationID":[
+        "S1878-8750(18)32028-X",
+        "10.1016/j.wneu.2018.09.008"
+      ],
+      "Language":[
+        "eng"
+      ],
+      "ArticleDate":[
+        {
+          "Year":"2018",
+          "Month":"09",
+          "Day":"11"
+        }
+      ],
+      "Journal":{
+        "ISSN":"1878-8769",
+        "JournalIssue":{
+          "Volume":"120",
+          "PubDate":{
+            "Year":"2018",
+            "Month":"Dec"
+          }
+        },
+        "Title":"World neurosurgery",
+        "ISOAbbreviation":"World Neurosurg"
+      },
+      "ArticleTitle":"Vagal Nerve Stimulation: Indications for Revision in Adult Refractory Epilepsy.",
+      "Pagination":{
+        "MedlinePgn":"e1047-e1053"
+      },
+      "Abstract":{
+        "AbstractText":[
+          "The goal of this study was to assess the indications of revision for vagal nerve stimulation at a single institution in an adult population with drug-resistant epilepsy.",
+          "This was a retrospective review of a prospectively collected database who underwent vagal nerve stimulator implantation for drug-resistant epilepsy during 1992-2017. Patients receiving vagal nerve stimulation (VNS) implants were monitored throughout their perioperative and postoperative course and were classified according to type of seizure at the time of diagnosis and indications for VNS revision. In addition, response to dysfunctional VNS devices or adverse effects were noted.",
+          "Most patients receiving VNS implants were given a diagnosis of complex partial seizures (CPSs) before implantation (95.1%). Other epileptic conditions identified requiring implantation included generalized seizures, generalized-atonic seizures, Lennox-Gastaut syndrome, CPS or generalized seizures, and tuberous sclerosis (with generalized characteristics). High lead impedance was the most common indication for revision (5.6%), whereas device ineffectiveness leading to continued seizures was the most common indication for removal (2.3%). Infection, lead fracture, and dual- to single-pin lead battery changes occurred at an incidence of 1.9%, requiring either implant removal or revision. Other events that occurred, albeit rarely, included skin extrusion (0.5%), postoperative hematoma (0.5%), and implant rejection (0.5%) necessitating removal.",
+          "VNS implantation in adults was shown to be a well-tolerated procedure. In addition, indications for revision or removal of the VNS device was low in this population with lead fracture rates lower than the incidence reported in pediatric population literature."
+        ],
+        "CopyrightInformation":"Copyright \u00a9 2018 Elsevier Inc. All rights reserved."
+      },
+      "AuthorList":[
+        {
+          "Identifier":[],
+          "AffiliationInfo":[
+            {
+              "Identifier":[],
+              "Affiliation":"Allegheny General Hospital, Department of Neurosurgery, Pittsburgh, Pennsylvania, USA."
+            }
+          ],
+          "LastName":"Gigliotti",
+          "ForeName":"Michael J",
+          "Initials":"MJ"
+        },
+        {
+          "Identifier":[],
+          "AffiliationInfo":[
+            {
+              "Identifier":[],
+              "Affiliation":"Allegheny General Hospital, Department of Neurosurgery, Pittsburgh, Pennsylvania, USA. Electronic address: Gordon.Mao@ahn.org."
+            }
+          ],
+          "LastName":"Mao",
+          "ForeName":"Gordon",
+          "Initials":"G"
+        },
+        {
+          "Identifier":[],
+          "AffiliationInfo":[
+            {
+              "Identifier":[],
+              "Affiliation":"Allegheny General Hospital, Department of Neurosurgery, Pittsburgh, Pennsylvania, USA."
+            }
+          ],
+          "LastName":"Dupr\u00e9",
+          "ForeName":"Derrick A",
+          "Initials":"DA"
+        },
+        {
+          "Identifier":[],
+          "AffiliationInfo":[
+            {
+              "Identifier":[],
+              "Affiliation":"Allegheny General Hospital, Department of Neurosurgery, Pittsburgh, Pennsylvania, USA."
+            }
+          ],
+          "LastName":"Wilberger",
+          "ForeName":"Jack",
+          "Initials":"J"
+        }
+      ],
+      "PublicationTypeList":[
+        "Journal Article"
+      ]
+    },
+    "MedlineJournalInfo":{
+      "Country":"United States",
+      "MedlineTA":"World Neurosurg",
+      "NlmUniqueID":"101528275",
+      "ISSNLinking":"1878-8750"
+    },
+    "MeshHeadingList":[
+      {
+        "QualifierName":[
+          "epidemiology",
+          "therapy"
+        ],
+        "DescriptorName":"Drug Resistant Epilepsy"
+      },
+      {
+        "QualifierName":[],
+        "DescriptorName":"Humans"
+      },
+      {
+        "QualifierName":[
+          "epidemiology"
+        ],
+        "DescriptorName":"Postoperative Complications"
+      },
+      {
+        "QualifierName":[],
+        "DescriptorName":"Prospective Studies"
+      },
+      {
+        "QualifierName":[],
+        "DescriptorName":"Reoperation"
+      },
+      {
+        "QualifierName":[],
+        "DescriptorName":"Retrospective Studies"
+      },
+      {
+        "QualifierName":[
+          "epidemiology",
+          "therapy"
+        ],
+        "DescriptorName":"Seizures"
+      },
+      {
+        "QualifierName":[],
+        "DescriptorName":"Vagus Nerve Stimulation"
+      }
+    ]
+  },
+  "PubmedData":{
+    "ReferenceList":[],
+    "History":[
+      {
+        "Year":"2018",
+        "Month":"06",
+        "Day":"30"
+      },
+      {
+        "Year":"2018",
+        "Month":"08",
+        "Day":"31"
+      },
+      {
+        "Year":"2018",
+        "Month":"09",
+        "Day":"02"
+      },
+      {
+        "Year":"2018",
+        "Month":"9",
+        "Day":"15",
+        "Hour":"6",
+        "Minute":"0"
+      },
+      {
+        "Year":"2018",
+        "Month":"12",
+        "Day":"18",
+        "Hour":"6",
+        "Minute":"0"
+      },
+      {
+        "Year":"2018",
+        "Month":"9",
+        "Day":"15",
+        "Hour":"6",
+        "Minute":"0"
+      }
+    ],
+    "PublicationStatus":"ppublish",
+    "ArticleIdList":[
+      "30213680",
+      "S1878-8750(18)32028-X",
+      "10.1016/j.wneu.2018.09.008"
+    ]
+  }
+}
