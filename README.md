@@ -34,7 +34,6 @@
         Cirque Lodge Rehabilitation. Duties include picking up and transporting prescriptions to be filled, vital signs checks on current
         detox residents, assisting the detox nurse in various capacities, facility checks, and resident admissions and discharges.
     </p>
-
     <h3>Endoscopy Technician</h3>
     <p>
         Intermountain Healthcare - Provo, UT<br>
