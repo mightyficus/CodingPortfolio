@@ -12,6 +12,52 @@
     <p>Authorized to work in the US for any employer</p>
     <h3>Work Experience</h3>
     <hr>
+    <h3>Technical Support Reperesentative</h3>
+    <p>
+        Aquaveo - Provo, UT<br>
+        February 2022 - Present
+    </p>
+    <p>
+        Provides assistance to the users of Aquaveo’s water modelling software by means of email and 
+        phone call correspondence. Responsibilities include answering customer emails in the support 
+        inbox, aanswering phone calls from customers, testing the software for potential bugs and 
+        reporting those findings, and maintaining a high standard for professional communication and 
+        customer service.
+    </p>
+    <h3>Detox Medical Technician</h3>
+    <p>
+        Cirque Lodge - Provo, UT<br>
+        October 2021 to December 2021
+    </p>
+    <p>
+        This position is responsible for providing technical support and general assistance to the medical staff of the detox wing at
+        Cirque Lodge Rehabilitation. Duties include picking up and transporting prescriptions to be filled, vital signs checks on current
+        detox residents, assisting the detox nurse in various capacities, facility checks, and resident admissions and discharges.
+    </p>
+
+    <h3>Endoscopy Technician</h3>
+    <p>
+        Intermountain Healthcare - Provo, UT<br>
+        May 2021 to October 2021
+    </p>
+    <p>
+        This position is responsible for providing technical support and general assistance
+        during Endoscopy procedures under the supervision of nurses and physicians. The Endoscopy
+        Tech is responsible for preparing equipment and procedure rooms for procedures, assisting
+        physician during endoscopy procedures, obtaining, labeling, and delivering biopsies, and
+        insuring specialized equipment and instruments are maintained.
+    </p>
+    <h3>Biorepository Inventory Technician</h3>
+    <p>
+        Intermountain Healthcare - Murray, UT<br>
+        October 2020 to May 2021
+    </p>
+    <p>
+        This position is responsible for the sample inventory management activity for the Biorepository and other duties and activities associated
+        with supporting research studies within the Biorepository. Biorepository technicians provide support to research coordinators, histologists,
+        pathologists, and other members of the Biorepository team. 
+    </p>
+    <br>
     <h3>Assistant Coordinator</h3>
     <p>
         Utah Valley University - Orem, UT<br>
