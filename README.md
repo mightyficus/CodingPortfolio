@@ -104,25 +104,18 @@
     <h2>Skills</h2>
     <hr>
     <ul>
-        <li>Linux (6 years)</li>
-        <li>C++ (6 years)</li>
-        <li>Python (4 years)</li>
+        <li>Linux 8 years)</li>
+        <li>C++ (8 years)</li>
+        <li>Python (6 years)</li>
         <li>SQL (1 year)</li>
-        <li>R Programming Language (1 year)</li>
-        <li>Microsoft Office</li>
-        <li>Laboratory Techniques
-            <ul>
-                <li>Pipetting</li>
-                <li>DNA Extraction</li>
-                <li>DNA Transformation</li>
-                <li>Immunoassays</li>
-                <li>Western Blots</li>
-                <li>PCR</li>
-            </ul>
-        </li>
-        <li>CRLA Certified CS Tutor</li>
+        <li>R Programming (1 year)</li>
+        <li>Small-Scale Networking</li>
+        <li>General Technical Troubleshooting</li>
+        <li>Microsoft Office Suite</li>
         <li>Critical Thinking Under Pressure</li>
         <li>Customer Service</li>
         <li>Conflict Resolution</li>
+        <li>Heavy object lifting and transport</li>
+        <li>CRLA Certified Computer Science Tutor</li>
     </ul>
 </body>
