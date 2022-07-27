@@ -6,16 +6,30 @@
         (661)755-3832
     </p>
     <p>
-        Achieve experience and recognition in the Data Science and Cybersecurity
-        while pursuing my education in Technology and Computer Science.
+        Achieve experience and recognition in the Systems Administration and Cybersecurity
+        while pursuing my education in Information TechnologyTechnology.
     </p>
     <p>Authorized to work in the US for any employer</p>
     <h3>Work Experience</h3>
     <hr>
+    <h3>Systems Administrator</h3>
+    <p>
+        Aquaveo - Provo, UT<br>
+        April 2022 - Present
+    </p>
+    <p>
+    The IT System Administrator's main duties include building and maintaining developer 
+    workstations, assisting in resolving "technical difficulties"
+    throughout the company, maintaining physical network infrastructure, and ensuring uptime of 
+    company servers. The IT system administrator completes projects under the instruction of the
+    IT department manager and company executives. In order to successfully perform in this position, 
+    the System Administrator has a working knowledge of Linux, computer systems and networks, 
+    physical hardware installation, and familiarity with most scripting languages.
+    </p>
     <h3>Technical Support Reperesentative</h3>
     <p>
         Aquaveo - Provo, UT<br>
-        February 2022 - Present
+        February 2022 - April 2022
     </p>
     <p>
         Provides assistance to the users of Aquaveo’s water modelling software by means of email and 
@@ -104,18 +118,18 @@
     <h2>Skills</h2>
     <hr>
     <ul>
-        <li>Linux 8 years)</li>
+        <li>Linux (8 years)</li>
+        <li>Windows Administration (4 years)</li>
+        <li>Bash Scripting (2 years)</li>
+        <li>Powershell Scripting (1 year)</li>
         <li>C++ (8 years)</li>
         <li>Python (6 years)</li>
         <li>SQL (1 year)</li>
-        <li>R Programming (1 year)</li>
-        <li>Small-Scale Networking</li>
-        <li>General Technical Troubleshooting</li>
-        <li>Microsoft Office Suite</li>
+        <li>Active Directory (1 year)</li>
+        <li>MaaS (1 year)</li>
+        <li>Juju (1 year)</li>
+        <li>Enterprise Networking (1 year)</li>
+        <li>General Hardware and Software Troubleshooting</li>
         <li>Critical Thinking Under Pressure</li>
-        <li>Customer Service</li>
-        <li>Conflict Resolution</li>
-        <li>Heavy object lifting and transport</li>
-        <li>CRLA Certified Computer Science Tutor</li>
     </ul>
 </body>
