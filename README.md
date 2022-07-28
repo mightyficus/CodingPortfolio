@@ -6,8 +6,9 @@
         (661)755-3832
     </p>
     <p>
-        Achieve experience and recognition in the Systems Administration and Cybersecurity
-        while pursuing my education in Information TechnologyTechnology.
+        Pursue my career and education in Systems Administration in order to gain experience for
+        the Cybersecurity field. Leverage my experience in the medical field to utilize charting 
+        software, effective time management, and non-technical communication skills.
     </p>
     <p>Authorized to work in the US for any employer</p>
     <h3>Work Experience</h3>
