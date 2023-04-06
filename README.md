@@ -1,5 +1,5 @@
 <body>
-    <h1>John Cooper Hopkin</h1>
+    <h1>John Cooper  Hopkin</h1>
     <p>
         Provo, UT 84604<br>
         coop.hopkin@gmail.com<br>
