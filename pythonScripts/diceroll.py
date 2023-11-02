@@ -10,29 +10,6 @@ import sys
 import re
 import random
 
-def test(teststr):
-
-
-    if re.search("^([\d]+)g([\d]+)d([\d]+)$", teststr, re.IGNORECASE):
-        regex = re.search("^([\d]+)g([\d]+)d([\d]+)$", teststr, re.IGNORECASE)
-        print(regex)
-        print()
-        #print(regex[0])
-        print(regex[1])
-        print(regex[2])
-        print(regex[3])
-    elif re.search("([\d]+)g ([\d]+)d ([\d]+)", teststr, re.IGNORECASE):
-        regex = re.search("([\d]+)g ([\d]+)d ([\d]+)", teststr, re.IGNORECASE)
-        print(regex)
-        print()
-        #print(regex[0])
-        print(regex[1])
-        print(regex[2])
-        print(regex[3])
-    else:
-        print("Input not valid.")
-
-
 def isValid(inString):
     if re.search("^([\d]+)g([\d]+)d([\d]+)$", inString, re.IGNORECASE):
         return True
@@ -81,7 +58,7 @@ def dynamic():
             # set groups to -1 for exception logic if user inputs 
             # invalid input
             groups = -1
-            groups = int(input("Enter the number of dice groups (or 0 to exit): "))
+            groups = int(input("Enter the number of dice groups or 0 to return to main menu: "))
             if (groups == 0):
                 return
             elif (groups < 0):
@@ -107,23 +84,26 @@ def dynamic():
         print(inst.args[0])
         
     finally:
-        if groups == 0 or input("Press Enter to try again, or enter 0 to return to main menu...") == "0":
+        if groups == 0 or input("Press Enter to try again, or enter 0 to return to main menu: ") == "0":
             return
         else:
             main()
 
 def main():
-    choicetype = input("Enter your roll syntax (XgYdZ), press enter to specify your roll dynamically, or enter 0 to exit: ")
-    if choicetype == '':
-        dynamic()
-    elif choicetype == "0":
+    try:
+        choicetype = input("Enter your roll syntax (XgYdZ), press enter to specify your roll dynamically, or enter 0 to exit: ")
+        if choicetype == '':
+            dynamic()
+        elif choicetype == "0":
+            print("Goodbye!")
+            return
+        elif isValid(choicetype):
+            totalRoll(*groupParse(choicetype))
+        else:
+            print("Invalid input!")
+        main()
+    except:
         print("Goodbye!")
-        return
-    elif isValid(choicetype):
-        totalRoll(*groupParse(choicetype))
-    else:
-        print("Invalid input!")
-    main()
         
     
 if __name__ == "__main__":
