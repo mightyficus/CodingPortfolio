@@ -33,19 +33,16 @@ def test(teststr):
         print("Input not valid.")
 
 
-
-#test("1g10d20")
-
-def isvalid(inString):
+def isValid(inString):
     if re.search("^([\d]+)g([\d]+)d([\d]+)$", inString, re.IGNORECASE):
         return True
     elif re.search("([\d]+)g ([\d]+)d ([\d]+)", inString, re.IGNORECASE):
         return True
     else:
-        print("Input not valid.")
+        #print("Input not valid.")
         return False
 
-def groups(inString):
+def groupParse(inString):
     if re.search("^([\d]+)g([\d]+)d([\d]+)$", inString, re.IGNORECASE):
         regex = re.search("^([\d]+)g([\d]+)d([\d]+)$", inString, re.IGNORECASE)
         return int(regex[1]), int(regex[2]), int(regex[3])
@@ -72,19 +69,21 @@ def totalRoll(groups, number, die):
     for i in range(len(groupTotals)-1):
         print(groupTotals[i], end=", ")
     print(groupTotals[-1])
-
+    
     print()
     print("Final Total:", sum(groupTotals))
 
 
-def manualInput():
+def dynamic():
     #TODO: Implement manual Input mode (0 to exit)
     try:
         while(True):
-            #number of groups
-            groups = int(input("Enter the number of dice groups: "))
+            # set groups to -1 for exception logic if user inputs 
+            # invalid input
+            groups = -1
+            groups = int(input("Enter the number of dice groups (or 0 to exit): "))
             if (groups == 0):
-                return 1
+                return
             elif (groups < 0):
                 raise Exeption("You can't have a negative group number!")
 
@@ -96,33 +95,45 @@ def manualInput():
             #type of die
             die = int(input("Enter the type of die: "))
             if (die < 2):
-                raise Exeption("You can't have a die with less than two sides!")
+                raise Exeption("Why would you want a die with less than two sides?")
 
             #roll the dice
             totalRoll(groups, number, die)
-            input("In the input section")
-
-    except:
-        print("Invalid Input!")
-        print("Try again, or enter 0 to exit...")
-
-def commandArgs():
-    try:
-        if isvalid(sys.argv[1]):
-            totalRoll(groups(sys.argv[1]))
-            return 1
+    
+    except ValueError:
+        print("Invalid Argument!")
+        
+    except Exception as inst:
+        print(inst.args[0])
+        
+    finally:
+        if groups == 0 or input("Press Enter to try again, or enter 0 to return to main menu...") == "0":
+            return
         else:
-            print("Invalid Arguments, please enter manually...")
-    except:
-        print("Invalid Arguments, please enter manually...")
-        return manualInput()
+            main()
 
-
-
-if __name__ == "__main__":
-    if len(sys.argv) > 1:
-        commandArgs()
+def main():
+    choicetype = input("Enter your roll syntax (XgYdZ), press enter to specify your roll dynamically, or enter 0 to exit: ")
+    if choicetype == '':
+        dynamic()
+    elif choicetype == "0":
+        print("Goodbye!")
+        return
+    elif isValid(choicetype):
+        totalRoll(*groupParse(choicetype))
     else:
-        manualInput()
-
-    input("Press any key to exit...")
+        print("Invalid input!")
+    main()
+        
+    
+if __name__ == "__main__":
+    print("Rolls can be specified in two ways:")
+    print("\tDynamically, where you enter the number of rolls, number of dice, and type of dice when it prompts you")
+    print("\tSyntactically, where you enter your roll in the format XgYdZ, where:")
+    print("\t\tX is the number of rolls")
+    print("\t\tY is the number of dice") 
+    print("\t\tand Z is the number of faces on the die.")
+    print()
+    main()
+  
+  
