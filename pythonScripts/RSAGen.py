@@ -29,7 +29,7 @@ def lcm(x,y):
 # then each number (6k +/- 1) <= root(n). This is 3x faster than testing all ints < sqrt(n).
 
 # Tests primality with 6k +/- 1 optimisation
-def isPrime(n) -> bool:
+def isPrime(n):
     # the 6k+/- 1 optimisation only works for primes > 3
     if n <= 3:
         return n > 1
@@ -90,12 +90,27 @@ def makeKeyFile(name, keySize, p, q, e=35537):
     with open('%s_privkey.txt' % (name), 'w') as of:
         of.write('%s,%s,%s' % (keySize, privateKey[0], privateKey[1]))
 
-def main():
-    primeness = isPrime(int(sys.argv[1]))
+def check_prime():
+    try:
+        prime_1 = int(float(input("Enter the first number: ")) // 1)
+        prime_2 = int(float(input("Enter the second number: ")) // 1)
+    except ValueError:
+        print("Input not a number!")
+    primeness = isPrime(int(prime_1))
     if primeness:
-        print(sys.argv[1], "is prime!")
+        print(prime_1, "is prime!")
     else:
-        print(sys.argv[1], "is composite!")
-
+        print(prime_1, "is composite!")
+        
+    primeness = isPrime(int(prime_2))
+    if primeness:
+        print(prime_2, "is prime!")
+    else:
+        print(prime_2, "is composite!")
+    
 if __name__ == "__main__":
-    main()
+    print("This program will test two number and determine if they are prime.")
+    print("If a float is entered, it will be truncated to a string.")
+    check_prime()
+    
+    
